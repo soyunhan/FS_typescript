@@ -1,0 +1,18 @@
+# TypeScript specific ignores
+*.tsbuildinfo
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# NPM package files
+node_modules/
+package-lock.json
+
+# Compiled output
+dist/
+
+# Parcel cache directory
+.cache/
