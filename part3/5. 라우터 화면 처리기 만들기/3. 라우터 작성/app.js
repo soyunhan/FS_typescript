@@ -47,6 +47,7 @@ function newsDetail() {
 
 function router() {
   const routePath = location.hash;
+  console.log(routePath);
 
   if (routePath === '') {
     newsFeed();

@@ -1,4 +1,4 @@
-
+//타입알리아스
 type Store = {
   currentPage: number;
   feeds: NewsFeed[];

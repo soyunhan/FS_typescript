@@ -15,7 +15,9 @@ const newsFeed = getData(NEWS_URL);
 const ul = document.createElement('ul');
 
 window.addEventListener('hashchange', function() {
+  //substr->#은 필요없으니 시작위치값을 준다
   const id = location.hash.substr(1);
+  console.log(id);
 
   const newsContent = getDat(CONTENT_URL.replace('@id', id))
   const title = document.createElement('h1');
