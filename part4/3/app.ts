@@ -13,6 +13,7 @@ type News = {
   content: string;
 }
 
+//인터섹션
 type NewsFeed = News & {
   comments_count: number;
   points: number;
@@ -20,7 +21,7 @@ type NewsFeed = News & {
 }
 
 type NewsDetail =  News & {
-  comments: NewsComment[];
+  comments: NewsComment[]; 
 }
 
 type NewsComment = News & {
